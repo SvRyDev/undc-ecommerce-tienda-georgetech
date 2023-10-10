@@ -1,3 +1,12 @@
+/* 
+daniel
+clear-flyer-1361.g8x.cockroachlabs.cloud
+defaultdb
+26257
+K6Bcj4lIYyZhqDyH8QyDlQ
+*/
+
+
 create table categoria(
 idcategoria serial primary key,
 nombre varchar(100),
