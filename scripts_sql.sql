@@ -138,3 +138,6 @@ ALTER TABLE permisos
 ADD CONSTRAINT fk_modulo_id
 FOREIGN KEY (moduloid)
 REFERENCES modulo (idmodulo);
+
+
+/* hola mundo */
