@@ -1,6 +1,6 @@
 <?php 
 	
-	define("BASE_URL", "http://localhost/ecommerce_v2/");
+	define("BASE_URL", "http://localhost/undc-ecommerce-tienda-georgetech/");
 	//const BASE_URL = "https://tecomsis.com/";
 
 	//Zona horaria
