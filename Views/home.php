@@ -34,7 +34,7 @@
           <div class="order-lg-last col-lg-5 col-sm-8 col-8">
             <div class="d-flex float-end">
               <a href="<?php echo base_url() ?>login"
-                class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i
+                class="btn btn-outline-primary"> <i
                   class="fas fa-user-alt m-1 me-md-2"></i>
                 <p class="d-none d-md-block mb-0">Iniciar Sesión</p>
               </a>
@@ -140,33 +140,51 @@
     <div class="container">
       <div class="row gx-3">
         <main class="col-lg-9">
-          <div class="card-banner p-5  rounded-5 contenedorjaja" style="height: 350px;">
+          <div class="card-banner p-5  rounded-5 cont-left" style="height: 350px;">
             <style>
-              .contenedorjaja {
+              .cont-left {
                 position: relative;
+                overflow: hidden;
+                
               }
 
-              .contenedorjaja:before {
+              .cont-left:before {
                 content: "";
-                background-image: url('<?= media() ?>images/fondocyberpunk.jpg');
+                background-image: linear-gradient(to right, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 90%), url('<?= media() ?>images/fondocyberpunk.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
-                *filter: blur(5px);
-                /* Ajusta el valor de 'blur' según la cantidad de desenfoque que desees */
                 position: absolute;
                 top: 0;
                 left: 0;
                 width: 100%;
                 height: 100%;
                 z-index: -1;
-                border-radius: 7px;
+                border-radius: 5px;
               }
+              .cont-right {
+                position: relative;
+                overflow: hidden;
+                
+              }
+
+              .cont-right:before {
+                content: "";
+                background-color: blue;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                border-radius: 5px;
+              }
+
             </style>
             <div style="max-width: 500px;">
               <h2 class="text-white">
                 Grandes productos<br />
-                mejores precios
+                chinos  
               </h2>
               <p class="text-white">No importa qué tan avanzado esté usted en su sofisticación como astrónomo
                 aficionado, siempre hay uno.</p>
@@ -175,7 +193,7 @@
           </div>
         </main>
         <aside class="col-lg-3">
-          <div class="card-banner h-100 rounded-5" style="background-color: #f87217;">
+          <div class="card-banner h-100 rounded-5 cont-right" ">
             <div class="card-body text-center pb-5">
               <h5 class="pt-5 text-white">Regalos Increíbles</h5>
               <p class="text-white">No importa qué tan avanzado estés en tu sofisticación</p>

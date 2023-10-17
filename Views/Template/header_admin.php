@@ -16,6 +16,7 @@
   <!-- Main CSS-->
   <link rel="stylesheet" type="text/css" href="<?php echo media() ?>css/main.css">
   <link rel="stylesheet" type="text/css" href="<?php echo media() ?>css/style.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo media() ?>css/style.dashboard.css">
   <!-- Font-icon css-->
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -33,7 +34,7 @@
       <li class="dropdown"><a class="app-nav__item" href="#" data-bs-toggle="dropdown" aria-label="Open Profile Menu"><i
             class="bi bi-person fs-4"></i></a>
         <ul class="dropdown-menu settings-menu dropdown-menu-right">
-          <li><a class="dropdown-item" href="<?php echo base_url(); ?>opciones"><i class="bi bi-gear me-2 fs-5"></i>
+          <li><a class="dropdown-item" href="<?php echo base_url(); ?>opciones"><i class="center bi bi-gear me-2 fs-5"></i>
               Settings</a></li>
           <li><a class="dropdown-item" href="<?php echo base_url(); ?>perfil"><i class="bi bi-person me-2 fs-5"></i>
               Profile</a></li>
