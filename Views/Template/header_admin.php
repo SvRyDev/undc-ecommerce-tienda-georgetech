@@ -5,8 +5,8 @@
     <meta name="description" content="Sitio web dedicado a la venta de producto"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <meta name = "author" content="tecomsis">
-    <meta name="theme-color" content="#009688">
+    <meta name = "author" content="GeorgeTech">
+    <meta name="theme-color" content="#1576CB">
     <link rel="shortcut icon" href="<?= media(); ?>images/favicon.ico"> 
     <title><?=$data['page_tag']?></title>
     
