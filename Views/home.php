@@ -33,18 +33,16 @@
           <!-- Center elements -->
           <div class="order-lg-last col-lg-5 col-sm-8 col-8">
             <div class="d-flex float-end">
-              <a href="<?php echo base_url()?>login"
+              <a href="<?php echo base_url() ?>login"
                 class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i
                   class="fas fa-user-alt m-1 me-md-2"></i>
                 <p class="d-none d-md-block mb-0">Iniciar Sesión</p>
               </a>
-              <a href=""
-                class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i
+              <a href="" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i
                   class="fas fa-heart m-1 me-md-2"></i>
                 <p class="d-none d-md-block mb-0">Favoritos</p>
               </a>
-              <a href=""
-                class="border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i
+              <a href="" class="border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i
                   class="fas fa-shopping-cart m-1 me-md-2"></i>
                 <p class="d-none d-md-block mb-0">Mi carrito</p>
               </a>
@@ -56,8 +54,8 @@
           <div class="col-lg-5 col-md-12 col-12">
             <div class="input-group float-center">
               <div class="form-outline">
-                <input type="search" id="form1" class="form-control" placeholder="Buscar"/>
-                
+                <input type="search" id="form1" class="form-control" placeholder="Buscar" />
+
               </div>
               <button type="button" class="btn btn-primary shadow-0">
                 <i class="fas fa-search"></i>
@@ -142,13 +140,36 @@
     <div class="container">
       <div class="row gx-3">
         <main class="col-lg-9">
-          <div class="card-banner p-5 bg-primary rounded-5" style="height: 350px;">
+          <div class="card-banner p-5  rounded-5 contenedorjaja" style="height: 350px;">
+            <style>
+              .contenedorjaja {
+                position: relative;
+              }
+
+              .contenedorjaja:before {
+                content: "";
+                background-image: url('<?= media() ?>images/fondocyberpunk.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                *filter: blur(5px);
+                /* Ajusta el valor de 'blur' según la cantidad de desenfoque que desees */
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                border-radius: 7px;
+              }
+            </style>
             <div style="max-width: 500px;">
               <h2 class="text-white">
-               Grandes productos<br />
+                Grandes productos<br />
                 mejores precios
               </h2>
-              <p class="text-white">No importa qué tan avanzado esté usted en su sofisticación como astrónomo aficionado, siempre hay uno.</p>
+              <p class="text-white">No importa qué tan avanzado esté usted en su sofisticación como astrónomo
+                aficionado, siempre hay uno.</p>
               <a href="#" class="btn btn-light shadow-0 text-primary"> Ver más </a>
             </div>
           </div>
@@ -697,7 +718,7 @@
             <i class="fab fa-lg fa-cc-visa"></i>
             <i class="fab fa-lg fa-cc-amex"></i>
             <i class="fab fa-lg fa-cc-mastercard"></i>
-            <i class="fab fa-lg fa-cc-paypal"></i>  
+            <i class="fab fa-lg fa-cc-paypal"></i>
           </div>
           <!--- payment --->
 

@@ -16,7 +16,7 @@ getModal('modals_roles', $data);
         </div>
         <ul class="app-breadcrumb breadcrumb">
             <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-            <li class="breadcrumb-item"><a href="<? echo base_url(); ?>roles"><?= $data['page_title'] ?></a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>roles"><?= $data['page_title'] ?></a></li>
         </ul>
     </div>
 

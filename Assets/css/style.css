@@ -1,15 +1,48 @@
-.app-sidebar__user-avatar{
-    width: 48px;
-    height: 45px;
-    background-color: gray;
-    padding: 6px;
+.app-sidebar__user-avatar {
+  width: 48px;
+  height: 45px;
+  background-color: gray;
+  padding: 6px;
 }
 
 .icon-hover:hover {
-    border-color: #3b71ca !important;
-    background-color: white !important;
-  }
-  
-  .icon-hover:hover i {
-    color: #3b71ca !important;
-  }
+  border-color: #3b71ca !important;
+  background-color: white !important;
+}
+
+.icon-hover:hover i {
+  color: #3b71ca !important;
+}
+
+:root {
+  --color1: #3b71ca;
+  --color2: #294e8a;
+  --color3: #002058;
+}
+
+
+.app-sidebar__toggle:hover,
+.app-sidebar__toggle:focus {
+  background-color: var(--color3);
+}
+
+.color1 {
+  background-color: var(--color1);
+}
+
+.color2 {
+  background-color: var(--color2);
+}
+
+.color3 {
+  background-color: var(--color3);
+}
+
+.btn-primary {
+  background-color: var(--color2);
+}
+
+.btn-primary:hover {
+
+  background-color: var(--color1);
+}
