@@ -15,7 +15,7 @@
                 <div class="tile">
 
                     <div class="tile-body">
-                        <form id="formRol" name="formRol">
+                        <form id="formRol" name="formRol" method="POST">
                             <div class="mb-3">
                                 <label class="form-label">Nombre</label>
                                 <input class="form-control" type="text" id="txtNombre" name="txtNombre"

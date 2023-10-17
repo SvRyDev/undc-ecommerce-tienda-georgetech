@@ -21,11 +21,11 @@
         	$resInsert = $insert->execute($this->arrVAlues);
         	if($resInsert)
 	        {
-	        	$lastInsert = $this->conexion->lastInsertId();
+	        	$lastInsert = 1; //$this->conexion->lastInsertId();
 	        }else{
 	        	$lastInsert = 0;
 	        }
-	        return $lastInsert; 
+	        return $lastInsert; //$lastInsert; 
 		}
 		//Busca un registro
 		public function select(string $query)
