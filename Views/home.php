@@ -24,8 +24,8 @@
         <div class="row gy-3">
           <!-- Left elements -->
           <div class="col-lg-2 col-sm-4 col-4">
-            <a href="https://mdbootstrap.com/" target="_blank" class="float-start">
-              <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="35" />
+            <a href="" target="_blank" class="float-start">
+              <img src="<?= media() ?>images/george.png" height="70" />
             </a>
           </div>
           <!-- Left elements -->
