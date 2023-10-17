@@ -36,7 +36,7 @@
               <a href="https://github.com/mdbootstrap/bootstrap-material-design"
                 class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i
                   class="fas fa-user-alt m-1 me-md-2"></i>
-                <p class="d-none d-md-block mb-0">Sign in</p>
+                <p class="d-none d-md-block mb-0">Iniciar Sesión</p>
               </a>
               <a href="https://github.com/mdbootstrap/bootstrap-material-design"
                 class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i
@@ -86,31 +86,31 @@
           <!-- Left links -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-dark" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Categories</a>
+              <a class="nav-link text-dark" href="#">Categorias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Hot offers</a>
+              <a class="nav-link text-dark" href="#">Ofertas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Gift boxes</a>
+              <a class="nav-link text-dark" href="#">Cajas de regalo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Projects</a>
+              <a class="nav-link text-dark" href="#">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Menu item</a>
+              <a class="nav-link text-dark" href="#">Opción del menú</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Menu name</a>
+              <a class="nav-link text-dark" href="#">Nombre del menú</a>
             </li>
             <!-- Navbar dropdown -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-dark mb-0" href="#" id="navbarDropdown" role="button"
                 data-mdb-toggle="dropdown" aria-expanded="false">
-                Others
+                Otros
               </a>
               <!-- Dropdown menu -->
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -145,21 +145,20 @@
           <div class="card-banner p-5 bg-primary rounded-5" style="height: 350px;">
             <div style="max-width: 500px;">
               <h2 class="text-white">
-                Great products with <br />
-                best deals
+               Grandes productos<br />
+                mejores precios
               </h2>
-              <p class="text-white">No matter how far along you are in your sophistication as an amateur astronomer,
-                there is always one.</p>
-              <a href="#" class="btn btn-light shadow-0 text-primary"> View more </a>
+              <p class="text-white">No importa qué tan avanzado esté usted en su sofisticación como astrónomo aficionado, siempre hay uno.</p>
+              <a href="#" class="btn btn-light shadow-0 text-primary"> Ver más </a>
             </div>
           </div>
         </main>
         <aside class="col-lg-3">
           <div class="card-banner h-100 rounded-5" style="background-color: #f87217;">
             <div class="card-body text-center pb-5">
-              <h5 class="pt-5 text-white">Amazing Gifts</h5>
-              <p class="text-white">No matter how far along you are in your sophistication</p>
-              <a href="#" class="btn btn-outline-light"> View more </a>
+              <h5 class="pt-5 text-white">Regalos Increíbles</h5>
+              <p class="text-white">No importa qué tan avanzado estés en tu sofisticación</p>
+              <a href="#" class="btn btn-outline-light"> Ver más </a>
             </div>
           </div>
         </aside>
