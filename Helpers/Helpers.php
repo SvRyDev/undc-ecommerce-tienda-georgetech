@@ -27,6 +27,12 @@
         require_once($view_nav);
     }
 
+    function getModal(string $nameModal, $data){
+        $view_modal="Views/Template/Modals/$nameModal.php";
+        require_once ($view_modal);
+    }
+
+
 
 	//Muestra información formateada
 	function dep($data)
