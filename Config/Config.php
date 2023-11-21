@@ -1,5 +1,5 @@
 <?php 
-	const BASE_URL = "http://localhost/ecommerce";
+	const BASE_URL = "http://localhost/undc-ecommerce-tienda-georgetech";
 	//const BASE_URL = "https://tecomsis.com";
 
 	//Zona horaria
@@ -8,8 +8,8 @@
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
 	const DB_NAME = "tienda";
-	const DB_USER = "admin";
-	const DB_PASSWORD = "Admin123";
+	const DB_USER = "root";
+	const DB_PASSWORD = "";
 	const DB_CHARSET = "utf8";
 
 	//Para envío de correo
