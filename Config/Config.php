@@ -6,10 +6,10 @@
 	date_default_timezone_set('America/Lima');
 
 	//Datos de conexión a Base de Datos
-	const DB_HOST = "localhost";
-	const DB_NAME = "tienda";
-	const DB_USER = "root";
-	const DB_PASSWORD = "";
+	const DB_HOST = "185.239.210.1";
+	const DB_NAME = "u581993567_tienda";
+	const DB_USER = "u581993567_root";
+	const DB_PASSWORD = "N|2>gP6n";
 	const DB_CHARSET = "utf8";
 
 	//Para envío de correo
