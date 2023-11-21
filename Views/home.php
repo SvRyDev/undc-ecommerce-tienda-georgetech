@@ -18,6 +18,8 @@
 			for ($i=0; $i < count($arrSlider) ; $i++) { 
 				$ruta = $arrSlider[$i]['ruta'];
 			 ?>
+			 
+			<!-- SLIDER "REAMPALZAR"-->
 				<div class="item-slick1" style="background-image: url(<?= $arrSlider[$i]['portada'] ?>);">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
@@ -41,6 +43,8 @@
 						</div>
 					</div>
 				</div>
+
+				
 			<?php 
 			}
 			?>

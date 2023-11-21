@@ -134,7 +134,7 @@
 				</div>
 			</div>
 
-			<div class="wrap-menu-desktop">
+			<div class="wrap-menu-desktop ">
 				<nav class="limiter-menu-desktop container">
 					
 					<!-- Logo desktop -->		
@@ -143,8 +143,8 @@
 					</a>
 
 					<!-- Menu desktop -->
-					<div class="menu-desktop">
-						<ul class="main-menu">
+					<div class="menu-desktop ">
+						<ul class="main-menu justify-content-center">
 							<li class="active-menu">
 								<a href="<?= base_url(); ?>">Inicio</a>
 							</li>
