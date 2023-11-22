@@ -24,6 +24,10 @@
               <td id="celEmail"></td>
             </tr>
             <tr>
+              <td>Telefono:</td>
+              <td id="celTelefono"></td>
+            </tr>
+            <tr>
               <td>Fecha:</td>
               <td id="celFecha"></td>
             </tr>

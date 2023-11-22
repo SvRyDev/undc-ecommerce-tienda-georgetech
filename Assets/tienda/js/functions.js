@@ -404,6 +404,7 @@ if(document.querySelector("#frmContacto")){
 		let nombre = document.querySelector("#nombreContacto").value;
 		let email = document.querySelector("#emailContacto").value;
 		let mensaje = document.querySelector("#mensaje").value;
+		let telefono = document.querySelector("#numeroTelefono").value;
 
 		if(nombre == ""){
 			swal("", "El nombre es obligatorio" ,"error");
@@ -419,6 +420,10 @@ if(document.querySelector("#frmContacto")){
 			swal("", "Por favor escribe el mensaje." ,"error");
 			return false;
 		}	
+		
+
+		//AGREGAR NUMERO TELEFONO
+
 		
 		divLoading.style.display = "flex";
 		let request = (window.XMLHttpRequest) ? 

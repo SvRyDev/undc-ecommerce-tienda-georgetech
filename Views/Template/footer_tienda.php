@@ -2,16 +2,19 @@
 $catFotter = getCatFooter();
 ?>
 <!-- Footer -->
-<footer class="bg3 p-t-0 p-b-32">
+<footer class="bg3 p-t-50 p-b-32">
 
-	<div class="row ">
-		<iframe
-			src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31204.583020282083!2d-77.00771267106934!3d-12.141349772091225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1700601321981!5m2!1ses!2spe"
-			style="width:100vw; border=0;" height="250" allowfullscreen="" loading="lazy"
-			referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<div class="container">
+		<div class="row">
+
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1374.1171512401518!2d-76.35086076637884!3d-13.061735212070484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1700604329451!5m2!1ses!2spe"
+				style="width:100vw; border=0; margin:0;" height="250" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
 	</div>
 
-	<div class="container p-t-75">
+	<div class="container p-t-50">
 		<div class="row">
 			<div class="col-sm-6 col-lg-4 p-b-50">
 				<h4 class="stext-301 cl0 p-b-30">

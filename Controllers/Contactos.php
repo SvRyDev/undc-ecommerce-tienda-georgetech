@@ -56,5 +56,22 @@
 			die();
 		}
 
+		public function setContacto(){
+			$strNombre =  strClean($_POST['nombreContacto']);
+			$strMensaje = strClean($_POST['mensaje']);
+			$strEmail = strClean($_POST['emailContacto']);
+			$strTelefono = strClean($_POST['numeroContacto']);
+			$request_rol = "";
+			
+				//Crear
+			
+					$request_rol = $this->model->insertContacto($strNombre,  $strEmail, $strMensaje, $strTelefono);
+			if($request_rol > 0 ){
+				$arrResponse = array('status' => true, 'msg' => 'Su mensaje ha sido enviado :D.');
+			}
+			
+			echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
+		die();
+	}
 	}
 ?>

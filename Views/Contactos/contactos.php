@@ -23,6 +23,7 @@
                           <th>ID</th>
                           <th>Nombre</th>
                           <th>Email</th>
+                          <th>Telefono</th>
                           <th>Fecha</th>
                           <th>Acciones</th>
                         </tr>
