@@ -2,7 +2,7 @@
 $catFotter = getCatFooter();
 ?>
 <!-- Footer -->
-<footer class="bg3 p-t-50 p-b-32">
+<footer class="bg3 p-t-50 p-b-32" style="background:#01204d">
 
 	<div class="container">
 		<div class="row">

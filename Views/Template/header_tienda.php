@@ -139,7 +139,7 @@
 					
 					<!-- Logo desktop -->		
 					<a href="<?= base_url(); ?>" class="logo">
-						<img src="<?= media() ?>/tienda/images/logo.png" alt="Tienda Virtual">
+						<img style="height:50px" src="<?= media() ?>/tienda/images/logo.png" alt="Tienda Virtual">
 					</a>
 
 					<!-- Menu desktop -->
@@ -158,12 +158,9 @@
 							</li>
 							
 							<li>
-								<a href="<?= base_url(); ?>/nosotros">Nosotro</a>
+								<a href="<?= base_url(); ?>/nosotros">Nosotros</a>
 							</li>
-
-							<li>
-								<a href="<?= base_url(); ?>/sucursales">Sucursales</a>
-							</li>
+						
 
 							<li>
 								<a href="<?= base_url(); ?>/contacto">Contacto</a>
