@@ -1,5 +1,9 @@
 <?php 
-	const BASE_URL = "http://georgetecnologia.com";
+
+	CONST PROT = "http://";
+	CONST WEB = "localhost/undc-ecommerce-tienda-georgetech";
+	//const BASE_URL = "http://georgetecnologia.com";
+	const BASE_URL = PROT . WEB;
 	//const BASE_URL = "https://tecomsis.com";
 
 	//Zona horaria
@@ -37,15 +41,17 @@
 	const NOMBRE_REMITENTE = "Tienda Virtual";
 	const EMAIL_REMITENTE = "no-reply@tecomsis.com";
 	const NOMBRE_EMPESA = "George Tecnologia";
-	const WEB_EMPRESA = "www.georgetech.com";
+	const WEB_EMPRESA = WEB;
 
 	const DESCRIPCION = "Una tienda especializada en moda de avanzada para hombre y mujeres.";
 	const SHAREDHASH = "TiendaVirtual";
 
 	//Datos Empresa
-	const DIRECCION = "Cañete";
-	const TELEMPRESA = "+(51)215195487";
-	const WHATSAPP = "962452145";
+	const DIRECCION = "Imperial - Cañete";
+	const DIRECCION2 = "Av. 28 de Julio N° 524 ";
+	const DIRECCION3 = "Galeria '28 de Julio' Stand 7";
+	const TELEMPRESA = "+(51)942134272";
+	const WHATSAPP = "942134272";
 	const EMAIL_EMPRESA = "georgetech@gmail.com";
 	const EMAIL_PEDIDOS = "georgetech@gmail.com"; 
 	const EMAIL_SUSCRIPCION = "info@tecomsis.com";
@@ -98,7 +104,8 @@
 	const PROBUSCAR = 4;
 
 	//REDES SOCIALES
-	const FACEBOOK = "https://www.facebook.com/tecomsis";
+	const FACEBOOK = "https://www.facebook.com/profile.php?id=100085460866773&sk=about";
+	const NOMFACEBOOK = "George Tecnologia";
 	const INSTAGRAM = "https://www.instagram.com/tecomsis/";
 	
 

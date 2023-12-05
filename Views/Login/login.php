@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -19,7 +21,7 @@
     </section>
     <section class="login-content">
       <div class="logo">
-        <h1><?= $data['page_title']; ?></h1>
+       <img style="height:100px" src="<?= media() ?>/tienda/images/logo.png" alt="Tienda Virtual">
       </div>
       <div class="login-box">
         <div id="divLoading" >

@@ -8,7 +8,9 @@ $catFotter = getCatFooter();
 		<div class="row">
 
 			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1374.1171512401518!2d-76.35086076637884!3d-13.061735212070484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1700604329451!5m2!1ses!2spe"
+				src="
+				https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.5573545240919!2d-76.35153626490354!3d-13.061711930929931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ffb0f8415deb5%3A0x2d7e4c91417f681f!2sgeorge%20tech!5e0!3m2!1ses!2spe!4v1701793491236!5m2!1ses!2spe
+				"
 				style="width:100vw; border=0; margin:0;" height="250" allowfullscreen="" loading="lazy"
 				referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
@@ -40,7 +42,7 @@ $catFotter = getCatFooter();
 				</h4>
 
 				<p class="stext-107 cl7 size-201">
-					<?= DIRECCION ?> <br>
+					<?= DIRECCION2 ." ". DIRECCION3 ." ".  DIRECCION ?> <br>
 					Tel: <a class="linkFooter" href="tel:<?= TELEMPRESA ?>">
 						<?= TELEMPRESA ?>
 					</a><br>
@@ -52,10 +54,6 @@ $catFotter = getCatFooter();
 				<div class="p-t-27">
 					<a href="<?= FACEBOOK ?>" target="_blanck" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
 						<i class="fa fa-facebook"></i>
-					</a>
-
-					<a href="<?= INSTAGRAM ?>" target="_blanck" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-						<i class="fa fa-instagram"></i>
 					</a>
 
 					<a href="https://wa.me/<?= WHATSAPP ?>" target="_blanck" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
@@ -97,7 +95,7 @@ $catFotter = getCatFooter();
 			<p class="stext-107 cl6 txt-center">
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				<?= NOMBRE_EMPESA; ?> |
-				<?= WEB_EMPRESA; ?> | <a href="https://georgeTech.com" target="_blank">Web</a>
+				<?= WEB_EMPRESA; ?> | <a href="<?= BASE_URL?>" target="_blank">Web</a>
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			</p>
 		</div>
