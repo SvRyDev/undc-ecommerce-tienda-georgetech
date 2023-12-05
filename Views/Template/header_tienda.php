@@ -145,25 +145,25 @@
 					<!-- Menu desktop -->
 					<div class="menu-desktop ">
 						<ul class="main-menu justify-content-center">
-							<li class="active-menu">
-								<a href="<?= base_url(); ?>">Inicio</a>
+							<li class="linavmenu">
+								<a class="linavmenu" href="<?= base_url(); ?>">Inicio</a>
 							</li>
 
 							<li>
-								<a href="<?= base_url(); ?>/tienda">Tienda</a>
+								<a class="linavmenu"  href="<?= base_url(); ?>/tienda">Tienda</a>
 							</li>
 
 							<li>
-								<a href="<?= base_url(); ?>/carrito">Carrito</a>
+								<a class="linavmenu"  href="<?= base_url(); ?>/carrito">Carrito</a>
 							</li>
 							
 							<li>
-								<a href="<?= base_url(); ?>/nosotros">Nosotros</a>
+								<a class="linavmenu"  href="<?= base_url(); ?>/nosotros">Nosotros</a>
 							</li>
 						
 
 							<li>
-								<a href="<?= base_url(); ?>/contacto">Contacto</a>
+								<a class="linavmenu"  href="<?= base_url(); ?>/contacto">Contacto</a>
 							</li>
 						</ul>
 					</div>	
@@ -171,11 +171,11 @@
 					<!-- Icon header -->
 					<div class="wrap-icon-header flex-w flex-r-m">
 						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
-							<i class="zmdi zmdi-search"></i>
+							<i class="linavmenu zmdi zmdi-search"></i>
 						</div>
 						<?php if($data['page_name'] != "carrito" and $data['page_name'] != "procesarpago"){ ?>
 						<div class="cantCarrito icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="<?= $cantCarrito; ?> ">
-							<i class="zmdi zmdi-shopping-cart"></i>
+							<i class="linavmenu zmdi zmdi-shopping-cart"></i>
 						</div>
 						<?php } ?>
 					</div>
@@ -295,7 +295,7 @@
 	<!-- Cart -->
 	<div class="wrap-header-cart js-panel-cart">
 		<div class="s-full js-hide-cart"></div>
-		<div class="header-cart flex-col-l p-l-65 p-r-25">
+		<div class="header-cart flex-col-l p-l-30 p-r-30">
 			<div class="header-cart-title flex-w flex-sb-m p-b-8">
 				<span class="mtext-103 cl2">
 					Tu carrito

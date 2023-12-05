@@ -45,7 +45,7 @@
     [ Fixed Header ]*/
     var headerDesktop = $('.container-menu-desktop');
     var wrapMenu = $('.wrap-menu-desktop');
-
+    var lis = $('.linavmenu');
     if($('.top-bar').length > 0) {
         var posWrapHeader = $('.top-bar').height();
     }
@@ -56,20 +56,24 @@
 
     if($(window).scrollTop() > posWrapHeader) {
         $(headerDesktop).addClass('fix-menu-desktop');
+        $(lis).addClass('linav');
         $(wrapMenu).css('top',0); 
     }  
     else {
         $(headerDesktop).removeClass('fix-menu-desktop');
+        $(lis).removeClass('linav');
         $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop()); 
     }
 
     $(window).on('scroll',function(){
         if($(this).scrollTop() > posWrapHeader) {
             $(headerDesktop).addClass('fix-menu-desktop');
+            $(lis).addClass('linav');
             $(wrapMenu).css('top',0); 
         }  
         else {
             $(headerDesktop).removeClass('fix-menu-desktop');
+            $(lis).removeClass('linav');
             $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop()); 
         } 
     });

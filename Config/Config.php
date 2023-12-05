@@ -1,5 +1,5 @@
 <?php 
-	const BASE_URL = "http://localhost/undc-ecommerce-tienda-georgetech";
+	const BASE_URL = "http://georgetecnologia.com";
 	//const BASE_URL = "https://tecomsis.com";
 
 	//Zona horaria
@@ -7,9 +7,9 @@
 
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
-	const DB_NAME = "tienda";
-	const DB_USER = "root";
-	const DB_PASSWORD = "";
+	const DB_NAME = "u717302495_tienda";
+	const DB_USER = "u717302495_root";
+	const DB_PASSWORD = "Q*j4z23Eit7v";
 	const DB_CHARSET = "utf8";
 
 	//Para envío de correo
@@ -36,8 +36,8 @@
 	//Datos envio de correo
 	const NOMBRE_REMITENTE = "Tienda Virtual";
 	const EMAIL_REMITENTE = "no-reply@tecomsis.com";
-	const NOMBRE_EMPESA = "Tienda Virtual";
-	const WEB_EMPRESA = "www.tecomsis.com";
+	const NOMBRE_EMPESA = "George Tecnologia";
+	const WEB_EMPRESA = "www.georgetech.com";
 
 	const DESCRIPCION = "Una tienda especializada en moda de avanzada para hombre y mujeres.";
 	const SHAREDHASH = "TiendaVirtual";
@@ -93,8 +93,8 @@
 
 	//Productos por página
 	const CANTPORDHOME = 8;
-	const PROPORPAGINA = 4;
-	const PROCATEGORIA = 4;
+	const PROPORPAGINA = 12;
+	const PROCATEGORIA = 12;
 	const PROBUSCAR = 4;
 
 	//REDES SOCIALES

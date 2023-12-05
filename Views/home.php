@@ -54,7 +54,7 @@ if (!empty($data['page'])) {
 </section>
 
 <!-- Banner -->
-<div class="sec-banner bg0 p-t-80 p-b-50">
+<div class="sec-banner bg0 p-t-40 p-b-0">
 	<div class="container">
 		<div class="row">
 			<?php
@@ -94,9 +94,9 @@ if (!empty($data['page'])) {
 <!-- Product -->
 <section class="bg0 p-t-23 p-b-140">
 	<div class="container">
-		<div class="p-b-10">
+		<div class="p-b-20">
 			<h3 class="ltext-103 cl5">
-				Productos Nuevos
+				Nuestros Productos
 			</h3>
 		</div>
 		<hr>
