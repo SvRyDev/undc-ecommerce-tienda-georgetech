@@ -8,8 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Abel OSH">
     <meta name="theme-color" content="#009688">
+    
     <link rel="shortcut icon" href="<?= media();?>/images/favicon.ico">
     <!-- Main CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?= media();?>/css/main.css">
     <link rel="stylesheet" type="text/css" href="<?= media();?>/css/style.css">
     
@@ -17,9 +19,9 @@
   </head>
   <body>
     <section class="material-half-bg">
-      <div class="cover"></div>
+      <div class="cover" data-aos="fade-up" data-aos-duration="1700" data-aos-offset="0"></div>
     </section>
-    <section class="login-content">
+    <section class="login-content" data-aos="fade-down" data-aos-duration="700" data-aos-offset="0">
       <div class="logo">
        <img style="height:100px" src="<?= media() ?>/tienda/images/logo.png" alt="Tienda Virtual">
       </div>
@@ -77,5 +79,9 @@
     <script src="<?= media(); ?>/js/plugins/pace.min.js"></script>
     <script type="text/javascript" src="<?= media();?>/js/plugins/sweetalert.min.js"></script>
     <script src="<?= media(); ?>/js/<?= $data['page_functions_js']; ?>"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>

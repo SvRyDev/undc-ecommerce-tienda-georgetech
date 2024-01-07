@@ -7,8 +7,8 @@ $idpagina = $data['page']['idpost'];
 	document.querySelector('header').classList.add('header-v4');
 </script>
 <!-- Title page -->
-<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url(<?= $banner ?>);">
-	<h2 class="ltext-105 cl0 txt-center">
+<section class="bg-img1 txt-center p-lr-15 p-tb-60" style="background-image: url(<?= $banner ?>);" data-aos="flip-right" data-aos-duration="700">
+	<h2 class="ltext-105 cl10 txt-center">
 		<?= $data['page']['titulo'] ?>
 	</h2>
 </section>

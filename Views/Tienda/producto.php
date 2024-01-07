@@ -156,7 +156,7 @@ $urlShared = base_url() . "/tienda/producto/" . $arrProducto['idproducto'] . "/"
 							$portada = media() . '/images/uploads/product.png';
 						}
 						?>
-						<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+						<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15" data-aos="fade-up"  data-aos-delay="<?php echo ($p*100);?>" data-aos-once="true" data-aos-offset="100">
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-pic hov-img0">

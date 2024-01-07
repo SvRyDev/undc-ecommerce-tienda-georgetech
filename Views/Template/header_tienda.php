@@ -37,6 +37,7 @@
 	<meta property="og:url"         content="<?= $urlWeb; ?>" />
 	<meta property="og:image"       content="<?= $urlImg; ?>" />
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="<?= media() ?>/tienda/images/favicon.ico"/>
 <!--===============================================================================================-->
@@ -214,13 +215,13 @@
 		<!-- Menu Mobile -->
 		<div class="menu-mobile">
 			<ul class="topbar-mobile">
+				<?php if(isset($_SESSION['login'])){ ?>
 				<li>
 					<div class="left-top-bar">
-						<?php if(isset($_SESSION['login'])){ ?>
 						Bienvenido: <?= $_SESSION['userData']['nombres'].' '.$_SESSION['userData']['apellidos'] ?>
-						<?php } ?>
 					</div>
 				</li>
+				<?php } ?>
 
 				<li>
 					<div class="right-top-bar flex-w h-full">
@@ -266,10 +267,6 @@
 				</li>
 
 				<li>
-					<a href="<?= base_url(); ?>/sucursales">Sucursales</a>
-				</li>
-
-				<li>
 					<a href="<?= base_url(); ?>/contacto">Contacto</a>
 				</li>
 			</ul>
@@ -287,7 +284,7 @@
 						<i class="zmdi zmdi-search"></i>
 					</button>
 					<input type="hidden" name="p" value="1">
-					<input class="plh3" type="text" name="s" placeholder="Buscar...">
+					<input class="plh3" type="text" name="s" placeholder="Buscar..." autocomplete="off">
 				</form>
 			</div>
 		</div>

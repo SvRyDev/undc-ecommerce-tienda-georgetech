@@ -2,7 +2,7 @@
 
 	CONST PROT = "http://";
 	CONST WEB = "localhost/undc-ecommerce-tienda-georgetech";
-	//const BASE_URL = "http://georgetecnologia.com";
+	//const WEB = "georgetecnologia.com";
 	const BASE_URL = PROT . WEB;
 	//const BASE_URL = "https://tecomsis.com";
 
@@ -38,12 +38,12 @@
 	//const SECRET = "";
 
 	//Datos envio de correo
-	const NOMBRE_REMITENTE = "Tienda Virtual";
+	const NOMBRE_REMITENTE = "George Tech";
 	const EMAIL_REMITENTE = "no-reply@tecomsis.com";
 	const NOMBRE_EMPESA = "George Tecnologia";
 	const WEB_EMPRESA = WEB;
 
-	const DESCRIPCION = "Una tienda especializada en moda de avanzada para hombre y mujeres.";
+	const DESCRIPCION = "Una tienda especializada en ventas de equipos y accesorios de computo.";
 	const SHAREDHASH = "TiendaVirtual";
 
 	//Datos Empresa

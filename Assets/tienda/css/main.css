@@ -746,6 +746,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .container-menu-desktop {display: none;}
 }
@@ -761,7 +762,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .main-menu-m {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #717fe0;
+  background-color: #004ec4;
 }
 
 .main-menu-m > li > a {
@@ -1778,7 +1779,7 @@ button.mfp-close {
 .filter-col1 {width: 27%;}
 .filter-col2 {width: 27%;}
 .filter-col3 {width: 26%;}
-.filter-col4 {width: 20%;}
+.filter-col4 {width: 80%;}
 
 /*---------------------------------------------*/
 .filter-link {
@@ -2399,7 +2400,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .ltext-105 {
-  font-family: Poppins-Bold;
+  font-family: Poppins-ExtraLight;
   font-size: 50px;
   line-height: 1.1;
 }

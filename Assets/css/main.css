@@ -15908,8 +15908,10 @@ be a descendant of the grid when it is being dragged.
 
 .material-half-bg .cover {
   background-color: #193257;
-  opacity: .8;
+  opacity: 0.6 !important;
   height: 50vh;
+  width: 100%;
+  margin-top: 50vh;
 }
 
 .m-loader {
